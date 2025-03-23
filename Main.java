@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner myObj = new Scanner(System.in); // create scanner object
       System.out.println("Interest Calculator Program");
-      System.out.println("What is the principal amount of the laon in dollars?");
+      System.out.println("What is the principal amount of the loan in dollars?");
       int loan = myObj.nextInt(); // read user input
       System.out.println("What is the interest rate (input 0.05 for 5%)?");
       double interest = myObj.nextDouble(); // read user input
